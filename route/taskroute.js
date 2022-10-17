@@ -9,4 +9,6 @@ route.get(`/create` , taskcontroller.new)
 
 route.get('/edit/:id' , taskcontroller.edit)
 
+
+route.post('/newTask' , taskcontroller.createTask)
 module.exports = route
